@@ -24,8 +24,7 @@ body {
 .right-side {
   width: 830px;
   padding-left: 80px;
-  padding-right: 200px;
-  padding-top: 68px;
+  padding-right: 80px;
   padding-bottom: 68px;
 }
 
@@ -55,13 +54,18 @@ body {
 }
 
 .projects-link {
-  color: #220fdc;
-  font-size: 14px;
-  line-height: 24px;
+  color: #ff6b08;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.projects-link:hover {
-  color: #ff6b08;
+/* .projects-code-link {
+  
+} */
+
+.projects-link:hover  {
+  color: blue;
 }
 
 .jobs-title,
@@ -72,7 +76,7 @@ body {
 }
 
 .jobs-occupation,
-.education-degree, .project-name {
+.education-degree {
   color: #2a2a2a;
   font-size: 16px;
   line-height: 1.5;
@@ -109,7 +113,7 @@ body {
 }
 
 .skills-list, .contacts-list,
-.languages-list {
+.languages-list, .projects-list {
   list-style: none;
   padding-left: 0;
 }

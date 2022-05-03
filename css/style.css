@@ -54,13 +54,6 @@ body {
   color: #595959;
 }
 
-.projects-title {
-  margin-bottom: 14px;
-  color: #2a2a2a;
-  font-size: 22px;
-  line-height: 24px;
-}
-
 .projects-link {
   color: #220fdc;
   font-size: 14px;
@@ -72,14 +65,14 @@ body {
 }
 
 .jobs-title,
-.education-title {
+.education-title, .projects-title {
   color: #2a2a2a;
   font-size: 22px;
   line-height: 1.091;
 }
 
 .jobs-occupation,
-.education-degree {
+.education-degree, .project-name {
   color: #2a2a2a;
   font-size: 16px;
   line-height: 1.5;
@@ -110,22 +103,19 @@ body {
   color: #fff;
 }
 
-.skills-title {
-  font-size: 22px;
-  line-height: 1.091;
-}
-
-.skills-item {
+.skills-item, .languages-item {
   font-size: 14px;
   line-height: 1.714;
 }
 
-.skills-list {
+.skills-list, .contacts-list,
+.languages-list {
   list-style: none;
   padding-left: 0;
 }
 
-.skills-item::before {
+.skills-item::before,
+.languages-item::before {
   content: "\2022";
   margin-right: 8px;
   color: #ff6b08;
@@ -145,22 +135,20 @@ body {
 
 .contacts,
 .skills,
-.widget {
-  padding-left: 40px;
+.widget,
+.languages {
+  padding: 0 30px;
+
 }
 
 .contacts-title,
-.skills-title {
+.skills-title, .languages-title {
   color: #ffffff;
   font-family: Montserrat;
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-}
-
-.contacts-list {
-  list-style: none;
-  padding-left: 0;
+  text-transform: uppercase;
 }
 
 .contacts-item {
@@ -168,6 +156,10 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: #ffffff;
+}
+
+.contacts-item:nth-child(3) {
+  opacity: 0.6;
 }
 
 .contacts-link {

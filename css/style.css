@@ -64,7 +64,7 @@ body {
 
 .projects-item {
   padding: 5px 0;
-  text-align: justify;
+  text-align: left;
   font-size: 16px;
   line-height: 1.5;
 }

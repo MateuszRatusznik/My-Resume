@@ -47,7 +47,6 @@ body {
 .bio-about {
   font-size: 14px;
   line-height: 1.714;
-  text-align: justify;
 }
 
 .bio-about, .projects-item {
@@ -64,23 +63,17 @@ body {
 
 .projects-item {
   padding: 5px 0;
-  text-align: justify;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .projects-code-link {
   margin-right: 5px;
-  color:blue;
+  color: blue;
   transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
-  text-decoration: none;
 }
 
-.projects-link:hover {
-  color: blue;
-}
+.projects-link:hover,
 .projects-code-link:hover {
-  color: #ff6b08;
+  color: #000;
 }
 
 .jobs-title,
@@ -145,6 +138,13 @@ body {
   width: 370px;
 }
 
+.photo,
+.contacts,
+.skills,
+.widget {
+  margin-bottom: 60px;
+}
+
 .contacts,
 .skills,
 .widget,
@@ -161,7 +161,6 @@ body {
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
-  margin-top: 50px;
 }
 
 .contacts-item {

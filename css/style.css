@@ -14,11 +14,20 @@ body {
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
+@media print {
+  body {
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
 .bio,
 .projects,
 .jobs,
 .education {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .right-side {
@@ -31,7 +40,7 @@ body {
 .bio-title {
   font-size: 45px;
   line-height: 2;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .bio-occupation {
